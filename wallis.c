@@ -23,13 +23,3 @@ int main(void) {
     }
   }
 }
-
-float wallis_pi(int n){
-  float prod=1;
-  for (int i=1;i<=n;i++){
-    prod=prod*((4*pow(i,2))/(4*pow(i,2)-1));
-  }
-  float pi=2*prod;
-  return (pi);
-}
-
